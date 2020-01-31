@@ -1,6 +1,10 @@
 hello github
+<<<<<<< HEAD
 
 提交本地文件到库中步骤：
 	1、git add 文件
 	2、git commit -m "这是注释"
 	3、git push origin master		//提交到github库上
+=======
+this is my first github test
+>>>>>>> 28acaa88a09307e836a31b7637fa18e2534bbe95
