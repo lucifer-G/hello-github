@@ -3,8 +3,23 @@ hello github
 
 提交本地文件到库中步骤：
 	1、git add 文件
+	2、git remote add origin https://自己的仓库url地址  		
+
+注：
+若出现错误：fatal: remote origin already exists.
+git remote rm origin  //断开连接
+	
 	2、git commit -m "这是注释"
-	3、git push origin master		//提交到github库上
+	3、git push -u origin master		//提交到github库上
+	
+	
+	
+分支：
+	1、git branch				//显示所有分支
+	2、git branch feature-A 	//创建分支
+	3、git checkout feature-A	//切换分支
+	4、git merge				//合并分支
+	
 =======
 this is my first github test
 >>>>>>> 28acaa88a09307e836a31b7637fa18e2534bbe95
